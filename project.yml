@@ -19,7 +19,8 @@ targets:
     deploymentTarget: 14.5
     settings:
       base:
+        INFOPLIST_FILE: Info.plist
         MARKETING_VERSION: 1.0
     sources:
-       - path: GitProject
+       - path: GitProject/sources
          exclude: "*.xcodeproj"
